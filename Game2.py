@@ -1,1 +1,2 @@
-def add_numbers(numbers: int) -> int:
+print('hello world')
+print('Hello Blaize')
