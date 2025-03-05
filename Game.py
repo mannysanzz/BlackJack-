@@ -2,16 +2,20 @@ import BlackJackGame
 
 
 def main():
+    # Sets a break before initializing the game, prompting users to enter if they want to play
     input("Press Enter to start your turn...")
-    game = BlackJackGame.BlackjackGame()  # Create a game instance.
-    game.start_game()  # Deal initial cards.
+    # Creates an instance of the game from BlackJack class
+    game = BlackJackGame.BlackjackGame()
+    # Initializing function from BlackJack class therefore dealing cards
+    game.start_game()
 
-    # Player's turn.
+    # Initializes players turn prompting user to either hit or stand
     if game.player_turn():
-        # Only if the player hasn't busted.
+        # If player does not bust, dealer's turn is initialized
         game.dealer_turn()
 
-    # Determine and display the winner.
+    # After turns are done winner is determined.
+
     game.determine_winner()
 
 
