@@ -16,7 +16,7 @@ class Player:
             total = 0
             # Runs through the Cards in players hand
             for card in self.hand:
-                # Adds the cards integer valyue to the total
+                # Adds the cards integer value to the total
                 total += card.get_value()
             # Counts Aces in hand
             ace_count = 0
