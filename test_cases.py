@@ -38,7 +38,7 @@ class TestCard(TestCase):
         result = ace.get_value() #gets the value of ace
         expected = 11 # ace value = 11
         self.assertEqual(result,expected) #expected is 11
-#Manny
+# Emmanuel
 class TestPlayer(TestCase):
 
     def test_add_card1(self):
@@ -71,7 +71,7 @@ class TestPlayer(TestCase):
         result = player.calculate_hand_value() #calculates value of the 3 cards
         expected = 15 #calulated value = 15 so that is the expected
         self.assertEqual(result,expected)
-#Manny
+# Emmanuel
 class TestBlackJackGame(TestCase):
 
     def test_start_game(self):

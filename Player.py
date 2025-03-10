@@ -1,4 +1,4 @@
-#Manny Sanchez
+# Emmanuel Sanchez
 # Defines Player class that is used for both player and dealer
 class Player:
     # Initializes the players hand and flags whether player is dealer

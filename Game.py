@@ -1,4 +1,4 @@
-#Manny Sanchez
+#Emmanuel Sanchez
 import BlackJackGame
 
 

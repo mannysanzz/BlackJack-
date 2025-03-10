@@ -1,4 +1,4 @@
-#Blaize Hatfield
+# Blaize Hatfield
 # Imports the random module from pycharm
 import random
 # Imports Card class from Card.py
