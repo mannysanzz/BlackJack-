@@ -1,3 +1,4 @@
+#Blaize Hatfield
 # Defines the card class which represents a playing card in our case
 class Card:
     # Initializes a new card object with a rank and suit
