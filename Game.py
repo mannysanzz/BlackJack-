@@ -1,4 +1,4 @@
-#Emmanuel Sanchez
+# Blaize Hatfield
 import BlackJackGame
 
 
